@@ -1,0 +1,55 @@
+@media only screen and (max-width: 768px) {
+    header .navbar-brand {
+      padding-left: 1rem;
+      color: white;
+    }
+    header .nav #navbarNav ul li a{
+        color: white;
+    }
+    header .container .col-md-7{
+        padding: 10vmin 3vmin;
+    }
+    header .container .col-md-5 img {
+        position: relative;
+        margin: 10% -50%;
+        width: 90%;
+    }
+    .section-2 {
+        padding: 5vmax 3vmax;
+    }
+    .modeling {
+        position: absolute;
+        margin-top: -600px;
+        margin-left: 50px;
+        opacity: 0.2;
+    }
+    .section-title span {
+        top: 115px;
+    }
+    .clients {
+        height: 360px;
+    }
+    .icon-box .icon img {
+        width: 70%;
+    }
+    .services .icon-box h4 {
+        margin: 55px 0 15px 0;
+    }
+}
+@media only screen and (min-width:1920px) {
+    .services .icon-box .icon {
+        padding: 10px;
+    }
+    body {
+        margin: 0px 200px;
+    }
+}
+@media (max-width: 575px) {
+    .section-title h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+    .section-title span {
+      font-size: 38px;
+    }
+}
